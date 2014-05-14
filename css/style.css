@@ -277,6 +277,21 @@ body {
 .sidebar ul li a {
   font-size: 1.125em;
 }
+/*Pitstop Page*/
+/*--------------------------------------------------------------------------------*/
+.mapButton {
+  text-align: right;
+  padding: 2em 0;
+}
+.detailsContainer img {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin: 0 3% 1em 0;
+}
+.detailsContainer img:nth-child(odd) {
+  margin-right: 0;
+}
 /*FORM STYLES*/
 /*--------------------------------------------------------------------------------------------------*/
 /*Footer*/
@@ -339,6 +354,22 @@ Min - Width: 56.3125em
 /*--------------------------------------------------------------------------------------------------*/
 /*Desktop*/
 /*--------------------------------------------------------------------------------*/
+@media only screen and (min-width: 56.3125em) {
+  /*Pitstop Page*/
+  /*--------------------------------------------------------------------------------*/
+  .detailsContainer img {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 3% 1em 0;
+  }
+  .detailsContainer img:nth-child(odd) {
+    margin-right: 3%;
+  }
+  .detailsContainer img:nth-child(3n+3) {
+    margin-right: 0;
+  }
+}
 /* END min-width : 901px */
 /* END min-width : 801px */
 /*
