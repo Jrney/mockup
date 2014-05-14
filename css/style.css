@@ -257,8 +257,12 @@ body {
   padding: 2em 1em;
   text-align: center;
 }
-.categoryButtons {
+.categoryButtons,
+.pitstopButton {
   padding: 2em 0;
+}
+.pitstopButton p {
+  font-weight: bold;
 }
 #map_canvas {
   width: 100%;
