@@ -28,7 +28,22 @@
 /*--------------------------------------------------------------------------------*/
 
 @media only screen
- and (min-width : 65.625em ) {
-    
+ and (min-width : 48em ) {
+// this is when bootstrap swtiches the nav from mobile to desktop.
+.navForm {
+    .form-group {
+         width: 40%;
+         height: 50px;
+         label {
+            line-height: 50px;
+            color: @white;
+            margin-right: 0.5em;
+            width: 25%;
+         }
+         select {
+            width: 65%;
+         }
+    }
+}
      
-}/* END min-width : 1050px */
+}/* END min-width : 768px */
